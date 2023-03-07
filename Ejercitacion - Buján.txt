@@ -1,0 +1,31 @@
+Ejercicitación pdf Clase 1 23/02
+ 
+1.
+2.
+     
+// El siguiente programa cumple la funcion de pedirle al usuario un numero entero y multiplicarlo por 22, arrojando el resultado en pantalla.
+        int primerNumero = 22;
+        int segundoNumero = 0;
+        System.out.println("Tendra que ingresar un numero entero");
+        String pedido = JOptionPane.showInputDialog("Ingrese numero entero");
+        segundoNumero = Integer.parseInt(pedido);
+        System.out.println("El numero ingresado es" + segundoNumero +"y se multiplicara por"+ primerNumero);
+        int producto = primerNumero*segundoNumero;
+        System.out.println("El prodcuto de la multiplicacion entre ambos numeros es"+ producto);
+
+3.
+4.
+
+// Programa para dectectar que letra del alfabeto latino es vocal o consonante. 
+      	String letra;
+        System.out.println("Ingresar una letra del sistema de escritura alfabético latino");
+        letra =  JOptionPane.showInputDialog("Ingrese letra deseada");
+        System.out.println("La letra ingresada fue    "+letra);
+        if ("a".equals(letra) || "e".equals(letra) || "i".equals(letra) || "o".equals(letra) || "u".equals(letra)) {
+        System.out.println("La  "+letra+"  es una vocal");
+        } else {
+            System.out.println( "la letra elegida es una consonante"); 
+        }     
+}
+}
+  
